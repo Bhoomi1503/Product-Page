@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.box img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+.box button{
+    background-color: green;
+    color: white;
+    border-radius:5px;
+    border: none;
+    padding: 10px;
+}
+.box p{
+    color: blue;
+}
